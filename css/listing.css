@@ -1,0 +1,1731 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+/*
+font-family: 'Roboto', sans-serif;
+*/
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+}
+a.linkopac img {
+  filter: alpha(opacity=100%);
+  -moz-opacity: 1;
+  opacity: 1;
+  background-color: transparent;
+}
+a.linkopac:hover img {
+  filter: alpha(opacity=20%);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  border: 0px none;
+}
+a {
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+a:hover {
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.listing_clear {
+  clear: both;
+}
+.listing_wrap {
+  width: 100%;
+}
+.listing_background {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.listing_main {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: table;
+}
+.listing_wrapcen {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+}
+.listing_content {
+  width: 100%;
+  margin: 0px auto 0;
+  display: table;
+}
+/*============================================
+			Top Header Css START 	
+============================================*/
+.dezign_wapper {
+  position: relative;
+  /* background: url("https://www.valuemailers.com/ebay-images/header_bg.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+.dezign_top_header {
+}
+.dezign_top_header {
+  position: relative;
+  z-index: 99;
+  border-bottom: 1px solid #f2f2f2;
+}
+.top_newsletter_link {
+  text-align: right;
+}
+.top_newsletter_link li {
+  /* display: table-cell; */
+  padding: 0px;
+  display: inline-block;
+}
+.fast_t img {
+  margin-top: -6px;
+}
+.top_newsletter_link .fast_t {
+  font-size: 15px;
+  color: #666666;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-left: 6px;
+}
+.top_newsletter_link .fast_t span {
+  color: #002d4c;
+  font-weight: 700;
+}
+.top_newsletter_link li:first-child {
+}
+.top_newsletter_link li:last-child {
+}
+.top_newsletter_link .new_t a {
+  color: #000 !important;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 18px;
+  border-left: 1px solid #f2f2f2;
+}
+.new_t2 a {
+  border-right: 1px solid #f2f2f2;
+}
+.top_newsletter_link .new_t a:hover {
+  background: #fdbb13;
+  color: #fff !important;
+}
+/*
+.top_newsletter_link .new_t a:hover {
+    background: #9fab25;
+}
+*/
+.top_newsletter_link a .fa {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.dezign_top_menu {
+  position: relative;
+  background: #121212;
+  padding: 0px;
+}
+/*
+#store_logo {
+	margin-top: -40px;
+}
+*/
+.welcome_text {
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  color: #333333;
+  padding-left: 24px;
+  background: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  font-family: "Roboto", sans-serif;
+  line-height: 21px;
+}
+.welcome_text span {
+  color: #1f81c6;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.store_menu {
+  background: #1c80c5;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+/* .store_menu::after {
+  content: "";
+  position: absolute;
+  background: url("https://www.valuemailers.com/ebay-images/top_bg.png");
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  margin: auto;
+} */
+.store_header {
+  padding: 31px 0px;
+  position: relative;
+  border-bottom: 2px solid #1c80c5;
+}
+.top_promo_code {
+  text-align: right;
+  margin-bottom: 5px;
+}
+.top_promo_code li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.left_border {
+  position: relative;
+}
+.top_promo_code li:first-child {
+  padding-right: 25px;
+}
+.top_promo_code li:last-child {
+  padding-left: 25px;
+}
+.menu_wapper {
+  background: #f5f5f5;
+  margin-bottom: 30px;
+}
+.main_menu {
+  text-align: center;
+}
+.main_menu li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  padding: 0px 25px;
+}
+.main_menu li:last-child {
+  margin-right: 0px;
+}
+.main_menu li:first-child {
+}
+.main_menu li a {
+  padding: 12px 0px;
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.9px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+  /* padding-bottom: 7px; */
+}
+.main_menu li a:hover::after {
+  width: 100%;
+}
+.main_menu li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+  text-align: center;
+  margin: 0 auto;
+}
+.about-img {
+  display: none;
+}
+/*
+.main_menu li a:hover{
+	color: #9fab25;
+}
+*/
+/*
+.top_main_menu li a::before {
+	position: absolute;
+	content: '';
+	background: #7f8a90;
+	width: 46px;
+	height: 1px;
+	right: -50px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+*/
+.home_banner_1 {
+  /* display: none; */
+  text-align: center;
+}
+.top_main_menu li:last-child a:before {
+  content: none;
+}
+.promotion-section_res,
+.banner_res_section {
+  display: none;
+}
+/* .home_banner {
+  position: relative;
+  background: url("https://www.valuemailers.com/ebay-images/banner_02.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 348px 0px;
+  padding-top: 20px;
+  text-align: center;
+} */
+/* .left_banner_text h2 {
+  font-size: 35px;
+  font-weight: 300;
+  color: #5a5a5a;
+  line-height: 35px;
+  letter-spacing: 0.3px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+} */
+/* .banner_section h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.25px;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  line-height: 65px;
+  text-transform: uppercase;
+} */
+/* .banner_section p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+} */
+/* .banner_section a {
+  background: #fdbb13;
+  color: #000 !important;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: "roboto", sans-serif;
+  padding: 15px 27px;
+  display: inline-block;
+} */
+/* .banner_section a:hover {
+  background: #1c80c5;
+  color: #fff !important;
+} */
+/* .promo_bottom {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+} */
+/*============================================
+			Top Header Css END 	
+============================================*/
+
+/*============================================
+			Footer Css START 	
+============================================*/
+footer {
+  float: left;
+  width: 100%;
+}
+.store_footer_wapper {
+  /* background: url("https://www.valuemailers.com/ebay-images/footer_bg.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  padding-top: 35px;
+  padding-bottom: 25px;
+  border: 1px solid #f2f2f2;
+  border-width: 2px 0;
+}
+.footer_block.footer_block03 {
+  text-align: center;
+  margin: 0 auto;
+  margin-left: -20px;
+}
+.footer_block_titel {
+  font-size: 18px;
+  color: #0d2336;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 15px;
+  text-align: center;
+  position: relative;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+}
+/*
+.footer_block_titel:after {
+	position: absolute;
+	content: "";
+	border-bottom: 2px solid #452609;
+	height: 2px;
+	left: 0;
+	right: 0px;
+	margin: 0 auto;
+	bottom: 0;
+	width: 28px;
+}
+*/
+.footer_logo {
+  margin-right: -50px;
+  margin-bottom: 20px;
+}
+.footer_block.footer_block01 .footer_block_titel:after {
+  right: unset;
+}
+.footer_block02 {
+}
+.footer_block.footer_block01 {
+  margin-left: 80px;
+}
+.footer_block01 {
+  float: left;
+}
+.footer_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.h-logo-s {
+  margin-right: -30px;
+}
+.footer_menu ul li {
+}
+.footer_menu ul li a {
+  font-size: 15px;
+  color: #333333;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  background-image: url("https://www.valuemailers.com/ebay-images/footer_menu_arrow.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.footer_menu ul li a:hover {
+  margin-left: 5px;
+  color: #1c80c5;
+  /* background-image: url("https://www.valuemailers.com/ebay-images/footer_menu_arrow_h.png") !important; */
+}
+.footer_payment {
+  text-align: center;
+}
+.footer_bottom {
+  /* background: #b02c35; */
+  padding: 10px 0;
+  position: relative;
+}
+.footer_block.footer_block02 {
+  text-align: right;
+  margin-left: -2px;
+}
+.dezign_copyright {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  /* color: #fff; */
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.dezign_copyright span {
+  text-transform: uppercase;
+  color: #1f81c6;
+  /* font-size: 16px; */
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.dezign_by {
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  text-align: right;
+}
+.dezign_by span {
+  font-weight: 600;
+  color: #fff;
+}
+/*============================================
+
+/*============================================
+			Footer Css END
+============================================*/
+
+/*============================================
+			Listing CSS START
+============================================*/
+.right_warranty {
+  position: absolute;
+  right: -107px;
+  top: 0;
+  bottom: 170px;
+  margin: auto;
+  height: 40px;
+  transform: rotate(-270deg);
+  background: #828282;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  font-family: "Work Sans", sans-serif;
+  transition: all 0.8s ease 0s;
+}
+.right_warranty a {
+  color: #fff !important;
+}
+.right_warranty .fas.fa-award {
+  padding-right: 12px;
+}
+.right_warranty span img {
+  transform: rotate(270deg);
+}
+.right_warranty:hover {
+  background: #f28e1e;
+}
+.surplus_section {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+.heroic_text {
+  text-align: center;
+}
+.heroic_text h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Oswald", sans-serif !important;
+  letter-spacing: 0.43px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+.heroic_text h2 {
+  color: #fff;
+  font-size: 75px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif !important;
+  margin: 0;
+}
+.heroic_text p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  font-family: "Allura", cursive;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.heroic_text h3 {
+  font-size: 35px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.visi_our_btn {
+  margin: 0 auto;
+  text-align: center;
+}
+.visi_our_btn a {
+  background: #c69320;
+  color: #fff !important;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Work Sans", sans-serif;
+  padding: 15px 25px;
+  display: inline-block;
+}
+.visi_our_btn a:hover {
+  background: #fff;
+  color: #000 !important;
+}
+.visi_our_btn img {
+  margin-top: -3px;
+}
+.promotion {
+  /* padding: 20px 0px; */
+  text-align: center;
+  margin: 0 auto;
+  background-color: #1c80c5;
+  /* background: url("https://www.valuemailers.com/ebay-images/promo_bg.png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+.promotion-section {
+  position: relative;
+  top: -45px;
+}
+.round_bg {
+  padding-bottom: 30px;
+}
+.product_section {
+  padding: 30px 0px;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 60px;
+}
+.listing_listinghead h1 {
+  margin: 0 0 0px;
+  padding: 0px 0px;
+  font-family: "Work Sans", sans-serif;
+}
+#listingarea {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+}
+.listing_listingarea-box {
+  float: left;
+  margin-bottom: 30px;
+  width: 100%;
+}
+#right_box {
+  position: relative;
+  z-index: 1;
+  /* border: 1px solid #e2e2e2; */
+  margin-bottom: 0;
+  /* height: 555px; */
+  /* overflow: auto; */
+  background: #ffffff;
+  /* padding: 20px 25px; */
+  /* padding-bottom: 0; */
+}
+.desc-rd.desc-text p span a {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #666666;
+}
+.right_main_sec {
+  margin-top: 40px;
+}
+.listing_listinghead h1 {
+  width: 100%;
+  color: #fff;
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 0px;
+  padding: 10px 10px;
+  text-align: center;
+  background: #333333;
+  letter-spacing: 1px;
+  z-index: 99;
+  font-family: "Work Sans", sans-serif;
+  position: relative;
+}
+.listing_listinghead.spider_text {
+  position: relative;
+}
+.listing_listinghead span {
+  color: #666666;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-top: 5px;
+  display: block;
+  letter-spacing: 1.5px;
+  font-family: "Work Sans", sans-serif;
+}
+.desc-hedtitle {
+  color: #000;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0 0 0px;
+  padding: 0px;
+  text-align: left;
+  letter-spacing: 0.3px;
+  z-index: 1;
+  font-family: "Roboto Slab", sans-serif;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #d5d4df;
+}
+.desc-rd {
+  width: 100%;
+  float: left;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  border: 0px solid #e2e2e2;
+  position: relative;
+  border-top: 0;
+}
+.desc-rd.desc-text h6 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+}
+.desc-rd.desc-text p {
+  margin-bottom: 12px;
+}
+.desc-rd.desc-text p:last-child {
+  margin-bottom: 0px;
+}
+.desc-text {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.25px;
+  line-height: 30px;
+}
+.size_chart {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  height: 43px;
+  line-height: 43px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "Work Sans", sans-serif;
+}
+.desc-rd.desc-text h5 {
+  font-size: 18px;
+  color: #666;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  padding: 15px 0px;
+  margin: 0;
+  letter-spacing: 0.25px;
+}
+.desc-rd.desc-text h1 {
+  font-size: 19px;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+  margin-bottom: 10px;
+}
+.product_text {
+  margin-bottom: 30px;
+  margin-left: -10px;
+}
+.desc-rd.desc-text table {
+  margin-bottom: 20px;
+  border: 1px solid #e6e6e6;
+  background: #fff; /*	box-shadow: 0px 0px 6px 2px #3333;*/
+}
+table {
+  width: 100% !important;
+}
+.tshirt_size_chart_tab table th {
+  background: #333333;
+  color: #fff !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.15px !important;
+  font-family: "Work Sans", sans-serif;
+  font-size: 17px !important;
+  text-align: center;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  border-right: 1px solid #565656 !important;
+}
+.desc-rd.desc-text .tshirt_size_chart_tab tr td {
+  padding: 4px 10px !important;
+  border: 1px solid #e6e6e6;
+  height: auto;
+  text-transform: unset;
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.spec_table table tr .p_left {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 145px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.left_b {
+  border-left: 1px solid #e6e6e6;
+}
+.spec_table {
+}
+.spec_table table {
+  box-shadow: none !important;
+  border: none !important;
+}
+.spec_table table tr {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  font-family: "Work Sans", sans-serif;
+}
+.desc-rd.desc-text tr td span {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+.table_section .st_text {
+  background: #000;
+  color: #fff;
+}
+.table_section .st_text {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+.table_section {
+  margin-bottom: 15px;
+}
+.table_section {
+  margin-bottom: 15px;
+}
+.desc-rd h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.desc-rd ul {
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+.desc-rd li {
+  background: url("https://www.valuemailers.com/ebay-images/right-1_arrow.png");
+  background-repeat: no-repeat;
+  background-position: left 12px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+.desc-rd table h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.questions_text {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #414042;
+}
+.product_des_section {
+  margin-bottom: 40px;
+}
+.pr_description {
+  font-size: 18px;
+  font-weight: 700;
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 40px;
+}
+.main_des_section {
+  padding: 25px;
+  border: 1px solid #e7e7e7;
+  padding-bottom: 0;
+}
+.dashing_text h1 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 35px;
+  letter-spacing: 0.2px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 0px;
+}
+.main_des_section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-family: "Work Sans", sans-serif;
+}
+.dashing_text {
+  margin-bottom: 30px;
+}
+.des_images {
+  margin-bottom: 40px;
+}
+.main_des_section h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 35px;
+  letter-spacing: 0.2px;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.main_des_section h2::after {
+  position: absolute;
+  content: "";
+  background: #8e8e8e;
+  width: 111px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+}
+.life_text {
+  margin-top: 40px;
+}
+.listing_title {
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 0 0 0px;
+  padding: 0px 20px;
+  text-align: left;
+  background: #5f6265;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif !important;
+  position: relative;
+  display: inline-block;
+  height: 43px;
+  line-height: 43px;
+}
+.listing_title::before {
+  position: absolute;
+  content: "";
+  background: url("https://www.valuemailers.com/ebay-images/btn_line.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5px;
+  height: 43px;
+}
+.listing_title img {
+  margin-top: -3px;
+  margin-right: 6px;
+}
+.second_des_sec {
+  padding: 20px;
+  border: 3px solid #f0f0f0;
+  max-height: 520px;
+  overflow: auto;
+}
+/* Images Code Start */
+.product_images_wappers {
+  /* border: 1px solid #e2e2e2; */
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  /* max-height: 555px; */
+  /* overflow: auto; */
+  /* scrollbar-width: thin; */
+  /* scrollbar-color: #b02c35 #fff; */
+}
+.product_images_gallery {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* Images Code END */
+
+/* Tab Code Start */
+.main_payment.pay_01 {
+  position: relative;
+}
+.payment_text h1 {
+  color: #2f2f34;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+.payment_text {
+  margin-bottom: 2px;
+}
+.payment_text h1 img {
+  padding-right: 10px;
+  margin-top: -4px;
+}
+.inner_text {
+  position: relative;
+  background: #f5f5f5;
+  padding: 30px;
+  border-left: 3px solid #828282;
+  /*	padding-bottom: 20px;*/
+}
+.inner_text p a {
+  color: #e90e0e;
+  border-bottom: 1px solid #e90e0e;
+}
+.inner_text p {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 26px;
+  font-family: "Roboto", sans-serif;
+}
+.inner_text p stong {
+  font-weight: 700;
+  color: #000;
+}
+.can_feed_sec {
+  margin-bottom: 30px;
+}
+.inner_text p:last-child {
+  margin: 0px;
+}
+.inner_text.paypal_text h6 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.inner_text h3 {
+  font-size: 16px;
+  color: #aaaaaa;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.returns_section {
+  padding-bottom: 55px;
+}
+.inner_text h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.25px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.tabe_section {
+  margin-bottom: 30px;
+}
+.au_section img {
+}
+.au_section {
+  text-align: left;
+}
+.au_text {
+  margin-left: -60px;
+}
+.au_text h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40px;
+  font-family: "Work Sans", sans-serif;
+}
+.inner_text h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 1px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 15px;
+}
+.inner_text.paypal_text ul {
+  margin: 0;
+}
+.inner_text li {
+  background: url("https://www.valuemailers.com/ebay-images/right_arrow.png");
+  background-repeat: no-repeat;
+  background-position: left 10px;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #aaaaaa;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  margin-bottom: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+.please_note_text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 25px;
+}
+.please_note_text {
+  border: 1px solid #e2e2e2;
+  margin-bottom: 30px;
+  padding: 30px;
+  padding-bottom: 5px;
+}
+.please_note_text h1 {
+  color: #ff0000;
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Work Sans", sans-serif;
+}
+.main_tab_row {
+  position: relative;
+}
+.main_tab_row::after {
+  position: absolute;
+  content: "";
+  width: 85px;
+  height: 173px;
+  left: 70px;
+  top: 100px;
+  z-index: -1;
+}
+.main_tab_row::before {
+  position: absolute;
+  content: "";
+  width: 85px;
+  height: 173px;
+  right: 70px;
+  bottom: 50px;
+  z-index: -1;
+}
+/* Tab Code END */
+
+/*============================================
+			Listing CSS START
+============================================*/
+.listing_listingarea-box audio {
+  margin: 0 auto;
+  width: 100%;
+  display: table;
+}
+.audio_images {
+  margin: 0 auto 20px;
+  display: table;
+}
+.aaaoo_text {
+  margin: 0 auto;
+  text-align: center;
+}
+.aaaoo_text h1 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 25px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+.aaaoo_text p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.aaaoo_text a {
+  background: #1a1a1a;
+  color: #ffff !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+}
+.aaaoo_text h2 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 15px;
+}
+.aaaoo_text h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.b_logo {
+  margin-bottom: 30px;
+}
+.aaaoo_text a:hover {
+  color: #fff !important;
+  background: #808080;
+}
+.contact_text {
+  margin-bottom: 30px;
+}
+.cat_main_wapper {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.true_section {
+  margin-bottom: 40px;
+}
+.fe_text h1 {
+  background: #000000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  border-right: 6px solid #fcb700;
+  border-left: 6px solid #fcb700;
+  height: 41px;
+  line-height: 41px;
+}
+.fe_text p {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: "Work Sans", sans-serif;
+}
+.fe_text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.feature_section {
+  margin-bottom: 30px;
+  position: relative;
+}
+.cate_section {
+  position: relative;
+}
+.cate_section:hover {
+  background: #fff;
+  box-shadow: 0px 0px 21px 0px rgba(107, 107, 107, 0.13);
+}
+.fashion_text {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background: #f8f8f8;
+  height: 350px;
+}
+.fashion_text a img {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.ring_text a::after {
+  position: absolute;
+  content: "";
+  background: url("https://www.valuemailers.com/ebay-images/right_arrow.png");
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 19px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transform: scale(0);
+}
+.ring_text a::before {
+  position: absolute;
+  content: "";
+  background: url("https://www.valuemailers.com/ebay-images/left_arrow.png");
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 19px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transform: scale(0);
+}
+.cate_section:hover .ring_text a::before,
+.cate_section:hover .ring_text a::after {
+  transform: scale(1);
+  /*	opacity: 100%;*/
+}
+.fashion_text img,
+.fashion_text:hover {
+  transition: all 0.8s ease 0s;
+}
+.fashion_text:hover img {
+  /*	transform: scale(1.2, 1.2);*/
+  transition: all 0.8s ease 0s;
+}
+.fashion_text:hover {
+  background: #fff;
+  box-shadow: 0px 0px 21px 0px rgba(107, 107, 107, 0.13);
+}
+.feature-title {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.feature-title h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  font-size: 25px;
+  position: relative;
+  margin: 0;
+  letter-spacing: 0.5px;
+  margin-top: -12px;
+  padding-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.feature-title h1::after {
+  position: absolute;
+  content: "";
+  background: #b02c35;
+  width: 35px;
+  height: 2px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.view_all_btn {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.view_all_btn a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  background: #fdbb13;
+  padding: 12px 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.view_all_btn a:hover {
+  background: #1f81c6;
+  color: #fff;
+}
+.view_all_btn a img {
+  margin-top: -3px;
+}
+.ring_text {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+}
+.ring_text h1 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 25px;
+}
+.ring_text img {
+  margin-bottom: 6px;
+}
+.ring_text a {
+  color: #333;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.ring_text a span img {
+  margin-top: -3px;
+}
+.bling_queen_section {
+  padding: 30px 0px;
+}
+.bling_text {
+  text-align: center;
+  margin: 0 auto;
+}
+.bling_text h1 {
+  font-size: 35px;
+  color: #000;
+  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  line-height: 42px;
+}
+.bling_text h1 span {
+  font-weight: 700;
+}
+.bling_text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #000;
+  font-family: "Work Sans", sans-serif;
+}
+.was_text p {
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 20px;
+  letter-spacing: 0.25px;
+}
+.surfav_text {
+  border: 10px solid #fff;
+  box-shadow: 0px 0px 6px 1px #3333;
+}
+.was_text p:last-child {
+  padding-bottom: 0;
+}
+.we_text_res {
+  display: none;
+}
+
+/*============================================
+	Guarantees Css START
+============================================*/
+.guaranteed_wapper {
+  padding: 40px 0;
+  float: left;
+  width: 100%;
+  padding-top: 0;
+  position: relative;
+}
+.guaranteed_wapper::after {
+  position: absolute;
+  content: "";
+  background: url("https://www.valuemailers.com/ebay-images/feedback_left.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 453px;
+  left: 0;
+  top: -40%;
+  z-index: -1;
+}
+.guaranteed_title {
+  background: url("https://www.valuemailers.com/ebay-images/title_bg.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #333333;
+  position: relative;
+  padding: 10px 0;
+  padding-left: 65px;
+  margin-top: 30px;
+  letter-spacing: 0.4px;
+}
+.guaranteed_title .view_btn {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: url("https://www.valuemailers.com/ebay-images/view_btn2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 18px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: underline #d4d4d4;
+}
+.guaranteed_title .view_btn:hover {
+  color: #9fab25;
+  background-image: url("https://www.valuemailers.com/ebay-images/view_btn2_h.png");
+}
+.guaranteed_box {
+  border: 2px solid #e2e2e2;
+  /* box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+  padding: 22px 10px;
+  height: 260px;
+  background: #fff;
+}
+.guaranteed_text {
+  font-size: 18px;
+  color: #666666;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+.ebay_logo {
+  margin-bottom: 10px;
+}
+.guaranteed_name {
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-family: "Work Sans", sans-serif;
+}
+/*============================================
+	Guarantees Css END
+============================================*/
+
+.home_section {
+  position: relative;
+  padding-bottom: 100px;
+  margin-top: 45px;
+  overflow: hidden;
+}
+.home-text h1 {
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+  font-family: "Roboto", serif;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  position: absolute;
+  /* margin: 0 auto; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 41px;
+  font-size: 25px;
+  text-transform: uppercase;
+  z-index: -1;
+}
+.home-text h2 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #e8e9e9;
+  margin-bottom: 25px;
+  font-family: "Alex Brush", cursive;
+  position: relative;
+  z-index: -2;
+}
+.home-text h2::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  background: #b02c35;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -83px;
+}
+.home-text {
+  text-align: center;
+  position: relative;
+}
+.home-text h6 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #222224;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  font-family: "Roboto", sans-serif;
+}
+.home-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  line-height: 24px;
+  margin-bottom: 24px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.3px;
+  padding: 0px 100px;
+}
+
+/*========================
+       about_section_start
+============================*/
+.about_sec_2 p {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  color: #333;
+  text-align: justify;
+}
+.about_sec_2 img {
+  margin: 5px 0px;
+  margin-bottom: 50px;
+}
+.about_sec_2 h6 {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  margin-right: 103px;
+}
+.about_btn a {
+  background: #fdbb13;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  padding: 14px 30px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+.about_btn {
+  margin-top: 50px;
+}
+.home_section::after {
+  /* content: ""; */
+  /* position: absolute; */
+  /* background-color: #1c80c5; */
+  /* background: url("https://www.valuemailers.com/ebay-images/about_bg.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* width: 100%; */
+  /* height: 100px; */
+  /* bottom: 75px; */
+  /* left: 0px; */
+  /* margin: auto; */
+  /* z-index: -1; */
+}
+/*
+.home_section::before {
+	content: '';
+	position: absolute;
+	background: url("https://www.valuemailers.com/ebay-images/about_bg_1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 102px;
+	height: 128px;
+	right: 0;
+	bottom: 79px;
+}
+*/
+.about_btn a img {
+  margin: 0px;
+}
+.about_btn a:hover {
+  background: #000000;
+}
+.about_img_sec::after {
+  content: "";
+  position: absolute;
+  background: url("../images/about_img_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 659px;
+  height: 485px;
+  right: -112px;
+  top: 0;
+}
+/*========================
+       about_section_start
+============================*/
