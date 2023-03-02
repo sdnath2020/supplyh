@@ -1732,3 +1732,35 @@ table {
 /*========================
        about_section_start
 ============================*/
+
+
+.str-category-tree__list {
+  padding: 0px 15px;
+  margin: 0;
+  border: 1px solid #e5e5e5;
+}
+
+.str-category-tree__list > li {
+  display: block;
+}
+
+.str-category-tree__list > li a {
+  display: block;
+  padding: 8px 0;
+  text-decoration: none;
+  color: #141414;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.str-category-tree__list > li:last-child a {
+  border: none;
+}
+
+.str-category-tree__list > li a:hover {
+  color: #fdbb11cc;
+  border-color: #fdbb11cc;
+  /* background-color: #fdbb13; */
+}
