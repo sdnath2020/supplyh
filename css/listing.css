@@ -174,7 +174,7 @@ ul {
   text-transform: uppercase;
 }
 .store_menu {
-  background: #1c80c5;
+  background: rgba(28,128,197,.85);
   text-align: center;
   margin: 0 auto;
   position: relative;
@@ -1733,6 +1733,37 @@ table {
        about_section_start
 ============================*/
 
+.main_menu_cat {
+  height: 44px;
+  padding: 12px 15px;
+  background-color: #1c80c5;
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.9px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+}
+
+.main_menu_cat svg {
+  fill: #ffffff;
+  margin-top: -3px;
+  width: 26px;
+  min-width: 26px;
+  min-height: 26px;
+  overflow: hidden;
+  display: block;
+  float: left;
+}
+
+.main_menu_cat span {
+  display: block;
+  float: left;
+  margin-left: 8px;
+}
 
 .str-category-tree__list {
   padding: 0px 15px;
